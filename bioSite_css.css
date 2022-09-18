@@ -1,0 +1,143 @@
+header {
+    font-family: "Open Sans", Montserrat, Oswald, serif;
+    background-color: #1ba098;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", Montserrat, Oswald, serif;
+}
+h1 {
+    font-weight: 400;
+}
+
+#facts {
+    overflow: hidden;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#firstfav {
+    float: left;
+    width: 100%;
+}
+
+#secondfav {
+    width: 25%;
+    padding-left: 35%;
+    
+}
+
+#thirdfav {
+    padding-left: 65%;
+    width: 25%;
+
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #deb992;
+    border-bottom: 8px;
+    border-style: solid;
+    border-color: black;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#portrait {
+    float: left;
+}
+
+#bio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    display: block;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    width: 50%;
+}
+
+img {
+    width: auto;
+    height: 350px;
+}
+
+#leftdiv {
+    padding: 15px;
+    margin-left: 5%;
+    width: 30%;
+    float: left;
+}
+
+#centerdiv {
+    padding: 15px;
+    float: left;
+    width: 25%;
+}
+
+#leftimg {
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+#centerimg {
+    padding: 15px;
+    float: left;
+    width: 25%;
+}
+
+#rightimg {
+    padding: 15px;
+    float: left;
+    width: 25%;
+}
+
+figure {
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+#imgfav {
+    padding-left: 30%;
+}
+
+#navbar a:hover {
+    color: grey;
+}
+#container {
+    font-family: "Open Sans", Montserrat, Oswald, serif;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background-color: #deb992;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    padding-left: 15px;
+}

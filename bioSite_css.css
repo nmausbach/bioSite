@@ -1,25 +1,42 @@
 header {
     font-family: "Open Sans", Montserrat, Oswald, serif;
-    background-color: #1ba098;
+    background-color: #7cd763;
     color: black;
     padding: 20px;
     text-align: center;
+    margin: -10px;
+    
 }
 
 body {
     font-family: "Open Sans", Montserrat, Oswald, serif;
+    background-image: url('images/greenbackground.jpg');
 }
 h1 {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
 #facts {
     overflow: hidden;
     padding: 10px;
+    border: 1px;
     border-style: solid;
     border-color: black;
     padding-left: 10px;
     padding-right: 10px;
+    border-left: 10%;
+    border-right: 10%;
+    margin-left: 10px;
+    width: 58%;
+    background-color: #d5de92;
+}
+
+#facts span {
+    float: right;
 }
 
 #firstfav {
@@ -27,43 +44,58 @@ h1 {
     width: 100%;
 }
 
+#firstfav img {
+    height: 300px;
+}
+
 #secondfav {
     width: 25%;
     padding-left: 35%;
-    
+}
+
+#secondfav img {
+    height: 450px;
 }
 
 #thirdfav {
     padding-left: 65%;
     width: 25%;
+}
 
+#thirdfav img {
+    height: 400px;
 }
 
 #navbar {
     overflow: hidden;
-    background-color: #deb992;
+    background-color: #d5de92;
     border-bottom: 8px;
     border-style: solid;
     border-color: black;
 }
 
 #navbar a {
-    float: right;
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: right;
 }
 
 #portrait {
     float: left;
 }
 
+#intro {
+    padding-bottom: 10px;
+}
+
 #bio {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 10px;
+    margin-right: 10px;
     display: block;
     color: black;
     border-style: solid;
@@ -72,19 +104,54 @@ h1 {
     width: 50%;
 }
 
+#bioh {
+    background-color: #7cd763;
+}
+
+#hobbies {
+    background-image: url('images/greenbackground2.jpg');
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
 img {
     width: auto;
-    height: 350px;
 }
 
 #leftdiv {
     padding: 15px;
+    margin-top: 20%;
     margin-left: 5%;
     width: 30%;
     float: left;
 }
 
+#leftdiv img {
+    height: 265px;
+    margin-top: -200px;
+}
+
+#centerdiv img {
+    height: 265px;
+    margin-top: -200px;
+    width: 380px;
+}
+
+#rightdiv img {
+    height: 600px;
+    margin-top: -200px;
+    padding-top: -200px;
+}
+
 #centerdiv {
+    margin-top: 20%;
+    padding: 15px;
+    float: left;
+    width: 25%;
+}
+
+#rightdiv {
+    height: 100%;
     padding: 15px;
     float: left;
     width: 25%;
@@ -93,19 +160,19 @@ img {
 #leftimg {
     padding: 15px;
     float: left;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 
 #centerimg {
     padding: 15px;
     float: left;
-    width: 25%;
+    padding-top: 60px;
 }
 
 #rightimg {
     padding: 15px;
     float: left;
-    width: 25%;
 }
 
 figure {
@@ -119,8 +186,8 @@ figcaption {
     font-size: .75em;
 }
 
-#imgfav {
-    padding-left: 30%;
+#imgfav img {
+  padding-left: 30%;
 }
 
 #navbar a:hover {
@@ -128,11 +195,9 @@ figcaption {
 }
 #container {
     font-family: "Open Sans", Montserrat, Oswald, serif;
-    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
-    background-color: #deb992;
 }
 
 .card {
@@ -140,4 +205,35 @@ figcaption {
     transition: 0.3s;
     width: 90%;
     padding-left: 15px;
+}
+
+footer {
+    font-weight: 400;
+    color:black;
+    float: right;
+    font-style: italic;
+    background-color:  #d5de92;
+    position: relative;
+    padding-bottom: 10px;
+    left: 0;
+    width: 98.6%;
+    padding-left: 10px;
+    text-align: right;
+    left: 0;
+    margin-top: 20px;
+    font-size: small;
+}
+
+footer span {
+    float: left;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

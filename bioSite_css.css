@@ -41,7 +41,8 @@ a {
 
 #firstfav {
     float: left;
-    width: 100%;
+    width: 20%;
+    padding-top: 10px;
 }
 
 #firstfav img {
@@ -49,21 +50,27 @@ a {
 }
 
 #secondfav {
-    width: 25%;
-    padding-left: 35%;
+    float: left;
+    width: 20%;
+    padding-left: 15%;
+    padding-top: 10px;
 }
 
 #secondfav img {
     height: 450px;
+    padding-top: 30px;
 }
 
 #thirdfav {
-    padding-left: 65%;
-    width: 25%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 10px;
+    width: 20%;
 }
 
 #thirdfav img {
     height: 400px;
+    padding-top: 45px;
 }
 
 #navbar {
@@ -216,18 +223,17 @@ footer {
     position: relative;
     padding-bottom: 10px;
     left: 0;
-    width: 98.6%;
     padding-left: 10px;
     text-align: right;
     left: 0;
     margin-top: 20px;
     font-size: small;
+    width: 100%;
 }
 
 footer span {
     float: left;
 }
-
 
 footer a {
     text-decoration: none;
